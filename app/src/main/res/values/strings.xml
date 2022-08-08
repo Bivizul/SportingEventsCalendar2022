@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sporting Events Calendar 2022</string>
+
+    <string name="error_title">\"Error connection \"</string>
+    <string name="error_message">Problems communicating with the server, fix the problem and restart the application.</string>
+
+    <string name="click_label_select">select</string>
+    <string name="state_descr_selected">Selected</string>
+    <string name="state_descr_not_selected">Not selected</string>
+    <string name="calendar_select_dates_title">Select Dates</string>
+    <string name="cd_back">Back</string>
+    <string name="settings">Settings</string>
+    <string name="notifications">Notifications</string>
+
+</resources>
