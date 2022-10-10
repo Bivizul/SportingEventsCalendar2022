@@ -20,11 +20,11 @@ Sporting Events Calendar 2022 - Jetpack Compose
 * Coil
 
 ## 📸 &nbsp;Screenshots
-# 🌞 Light Theme
+### 🌞 Light Theme
 
 <img src="assets/1.png" width="250"> <img src="assets/2.png" width="250">
 <img src="assets/3.png" height="250">
 
-# 🌚 Dark Theme
+### 🌚 Dark Theme
 
 <img src="assets/4.png" width="250"> <img src="assets/5.png" height="250">
