@@ -1,5 +1,6 @@
 package com.bivizul.sportingeventscalendar2022.beforemain
 
+import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.bivizul.sportingeventscalendar2022.data.Repository
@@ -26,9 +27,11 @@ class BeforeMainViewModel @Inject constructor(private val repository: Repository
             val response = repository.getPosil(langag)
             if (response.isSuccessful) {
                 response.body()?.let {
+                    Log.e("qwer","BeforeMainViewModel getPosil it : $it")
                     _posil.emit(Resource.Success(it))
                 }
             } else {
+                Log.e("qwer","BeforeMainViewModel getPosil else")
                 _posil.emit(Resource.Error(response.message()))
             }
         }

@@ -46,7 +46,10 @@ fun BeforeMain(
         Log.e("qwer","Before loading")
         CoroutineScope(Dispatchers.Main).launch {
             when (resource) {
-                is Resource.Loading -> {Log.e("qwer","Loading")}
+                is Resource.Loading -> {
+                    Log.e("qwer","Loading")
+                    navController.navigate(Routes.Main.route)
+                }
                 is Resource.Success -> {
                     resource.data?.let {
                         Log.e("qwer","Success")
