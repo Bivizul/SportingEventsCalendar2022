@@ -2,8 +2,7 @@
 
 ## 📜 &nbsp;Description app:
 
-Sporting Events Calendar 2022
-Jetpack Compose
+Sporting Events Calendar 2022 - Jetpack Compose
 
 ## 🛠 &nbsp;Tech Stack
 
