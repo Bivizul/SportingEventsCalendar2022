@@ -19,25 +19,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 
-
-/**
- * @author Isaac Akakpo
- * Created on 12/6/2021 3:57 PM
- */
-
-/*
-* Custom Switch - Functionalities
-*
-* 1. Change Enabled  Color (Probably the disable color too) ..
-* 2. Change box to card for clickable experience ..
-* 3. Add vibration feature ..x
-* 4. Add Switch Type (Square Switch, Cut Corner, Rounded)
-* 5. Add Switch Text/Icon Functionality
-* 6. elevate the round inner circle
-*
-*
-* */
-
 private enum class SwitchState {
     IS_ENABLED,
     NOT_ENABLED
